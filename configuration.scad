@@ -69,7 +69,7 @@ y_carriage_hole_spacing = 29;
 y_bushing_height=(support_wall_thickness+2);
 
 // screw used to mount parts to the extrusion
-ex_screw=screw_8020_1_4_flange_head;
+ex_screw=screw_M5_socket_head;
 
 // extrusion parameters
 // 10 series 8020 (inch) conf_ex_8020_10s
@@ -78,7 +78,7 @@ ex_screw=screw_8020_1_4_flange_head;
 // 25 series 8020 conf_ex_8020_25s
 // 30 series 8020 conf_ex_8020_30s
 // Misumi 2020 conf_ex_misumi_2020
-extrusion = conf_ex_8020_10s;
+extrusion = conf_ex_misumi_2020;
 
 // extrusion lengths
 // You can delete these and just specify in millimeters below
